@@ -1,0 +1,23 @@
+appdirs==1.4.3
+attrs==19.3.0
+black==19.10b0
+Click==7.0
+entrypoints==0.3
+flake8==3.7.9
+Flask==1.1.1
+greenlet==0.4.15
+itsdangerous==1.1.0
+Jinja2==2.11.0
+MarkupSafe==1.1.1
+mccabe==0.6.1
+msgpack==0.6.2
+-e git+https://github.com/ramnext/python-pp3rd.git@e0b73b12a6dfeccd8720cce9ec47d72c5d7baf61#egg=norilog
+pathspec==0.7.0
+pkg-resources==0.0.0
+pycodestyle==2.5.0
+pyflakes==2.1.1
+pynvim==0.4.0
+regex==2019.12.20
+toml==0.10.0
+typed-ast==1.4.0
+Werkzeug==0.16.1
