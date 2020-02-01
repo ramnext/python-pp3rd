@@ -1,7 +1,8 @@
 import json
+from datetime import datetime
 
 
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, request, Markup, escape
 
 
 application = Flask(__name__)
@@ -54,8 +55,36 @@ def index():
     """Top page
     Return screen data for top page.
     """
+    # Reading saved data.
     rides = load_data()
     return render_template('index.html', rides=rides)
+
+
+@application.route('/save', methods=['POST'])
+def save():
+    """Remember URL
+    :returns: redirect url.
+    """
+    # correct recording datas.
+    start = request.form.get('start')    # start time.
+    finish = request.form.get('finish')  # arrival time.
+    memo = request.form.get('memo')      # note.
+    create_at = datetime.now()           # recording time that system datetime.
+    save_data(start, finish, memo, create_at)
+
+    # move top page after saveing.
+    return redirect('/')
+
+
+@application.template_filter('nl2br')
+def nl2br_fileter(s):
+    """Template filter that replace to <br> from new line character.
+
+    :s: target string.
+    :returns: replaced string.
+
+    """
+    return escape(s).replace('\n', Markup('<br>'))
 
 
 if __name__ == '__main__':
