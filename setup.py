@@ -18,7 +18,11 @@ setup(
     long_description=read_file('README.rst'),
     author='ramnext',
     author_email='ramnextevolutions@gmail.com',
+<<<<<<< HEAD
     url='https://github.com/ramnext/python-pp3rd/',
+=======
+    url='https://github.com/ramnext/python-pp-3rd/',
+>>>>>>> dff945518c618546af0522c6e9da6c9d4694ecd8
     classifiers=[
         'Development Status :: 4 - Beta',
         'Framework :: Flask',
