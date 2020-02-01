@@ -23,7 +23,7 @@ Webブラウザーでコメントを投稿するWebアプリケーションの�
 リポジトリーからコードを取得し、その下にvenv環境を用意します::
 
 
-    $ git clone https://github.com/ramnext/python3-pp
+    $ git clone https://github.com/ramnext/python-pp3rd.git
     $ cd norilog
     $ python3.7 -m venv .venv
     $ source .venv/bin/activate.fish
