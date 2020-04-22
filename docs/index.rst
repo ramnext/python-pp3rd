@@ -10,7 +10,7 @@ Welcome to SW-Project's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-    sample
+   sample
 
 Indices and tables
 ==================
