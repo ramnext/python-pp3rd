@@ -1,7 +1,7 @@
 .. SW-Project ProjectManagement documentation master file.
 
 SW-Project's ProjectManagement documentation!
-======================================
+==============================================
 
 .. toctree::
    :maxdepth: 2
