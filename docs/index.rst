@@ -11,6 +11,7 @@ Welcome to SW-Project's documentation!
    :caption: Contents:
 
    sample
+   math
 
 Indices and tables
 ==================
