@@ -75,3 +75,6 @@ source_suffix = ['.rst', '.md']
 source_parsers = {
     '.md': 'recommonmark.parser.CommonMarkParser'
 }
+
+# todo Directive settings
+todo_include_todos = True
