@@ -66,3 +66,11 @@ language = 'ja'
 
 # LaTex の docclass 設定
 latex_docclass = {'manual': 'jsbook'}
+
+# ファイルの拡張子
+source_suffix = ['.rst', '.md']
+
+# 拡張子 .md のパーサー（構文解析器）に recommonmark を指定する
+source_parsers = {
+    '.md': 'recommonmark.parser.CommonMarkParser'
+}
