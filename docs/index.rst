@@ -12,7 +12,7 @@ Welcome to SW-Project's documentation!
 
    sample
    math
-   Minutes/index
+   080.Minutes/index
 
 Indices and tables
 ==================
