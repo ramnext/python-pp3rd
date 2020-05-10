@@ -12,6 +12,7 @@ Welcome to SW-Project's documentation!
 
    sample
    math
+   Minutes/index
 
 Indices and tables
 ==================
