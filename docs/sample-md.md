@@ -30,4 +30,4 @@
 - **強調**
 - *斜体*
 - `リテラル`
-- [リンク文字列B](http://docs.sphinx-user.jp)
+- [リンク文字列B](https://www.sphinx-doc.org/ja/master/)

@@ -36,7 +36,7 @@
 - *斜体*
 - ``リテラル``
 - `リンク文字列A`_
-- `リンク文字列B <http://docs.sphinx-user.jp>`__
+- `リンク文字列B <https://www.sphinx-doc.org/ja/master/>`__
 - :doc:`index` 対象ファイルへのリンク。章タイトルに置き換わります。
 
-.. _リンク文字列A: http://sphinx-user.jp
+.. _リンク文字列A: https://www.sphinx-doc.org/ja/master/
